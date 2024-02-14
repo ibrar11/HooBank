@@ -13,9 +13,18 @@ module.exports = {
       colors: {
         primary: "#00F6FF",
         secondary: "#06080c",
+        "light-purple": "#BCA5FF",
+        "water-blue": "#214D76",
       },
       maxWidth: {
         container: "1210px",
+      },
+      blur: {
+        "3.5xl": "76px",
+        "4xl": "100px",
+      },
+      width: {
+        "overflow-width": "calc(100% + 20px)",
       },
     },
   },

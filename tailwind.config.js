@@ -26,6 +26,9 @@ module.exports = {
       width: {
         "overflow-width": "calc(100% + 20px)",
       },
+      backgroundImage: {
+        gradientText: "linear-gradient(to right,#33BBCF,#DEF9FA)"
+      },
     },
   },
   plugins: [],

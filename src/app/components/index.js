@@ -1,10 +1,13 @@
-export { default as Container } from "../components/Container";
-export { default as Divider } from "../components/Divider";
-export { default as HamburgerIcon } from "../components/HamburgerIcon";
-export { default as IconItem } from "../components/IconItem";
+export { default as Container } from "./Container";
+export { default as Divider } from "./Divider";
+export { default as HamburgerIcon } from "./HamburgerIcon";
+export { default as IconItem } from "./IconItem";
+export { default as Feature } from "./Feature";
+export { default as Button } from "./Button";
 
 //sections
 
 export { default as Header } from "./templates/Header";
 export { default as HeroSection } from "./templates/HeroSection";
 export { default as Endorsement } from "./templates/Endorsement";
+export { default as Benefits } from "./templates/Benefits";

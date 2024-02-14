@@ -4,7 +4,7 @@ import { Container, Divider } from "../index";
 const Endorsement = () => {
   return (
     <section>
-      <Divider py="sm:py-10" />
+      <Divider py="py-5 sm:py-10" />
       <Container>
         <div className="flex flex-wrap gap-x-10 gap-y-5 sm:justify-center lg:justify-between">
           <div className="flex items-center gap-x-1 sm:gap-x-5">
@@ -39,7 +39,7 @@ const Endorsement = () => {
           </div>
         </div>
       </Container>
-      <Divider py="sm:py-10" />
+      <Divider py="py-5 sm:py-10" />
     </section>
   );
 };

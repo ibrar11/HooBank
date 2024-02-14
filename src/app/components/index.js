@@ -1,2 +1,3 @@
-export { default as IconItem } from "../components/IconItem";
 export { default as Container } from "../components/Container";
+
+export { default as HeroSection } from "./templates/HeroSection";

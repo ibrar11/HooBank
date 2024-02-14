@@ -7,3 +7,4 @@ export { default as IconItem } from "../components/IconItem";
 
 export { default as Header } from "./templates/Header";
 export { default as HeroSection } from "./templates/HeroSection";
+export { default as Endorsement } from "./templates/Endorsement";

@@ -27,14 +27,14 @@ const HeroSection = () => {
             <div className="relative flex flex-col gap-y-5">
               <h1 className="pr-32 text-3xl font-semibold text-white sm:pr-0 sm:text-4xl sm:leading-tight md:text-5xl lg:text-6xl">
                 The Next{" "}
-                <span className="bg-gradient-to-r from-[#33BBCF] to-[#DEF9FA] bg-clip-text text-transparent">
+                <span className="bg-gradientText bg-clip-text text-transparent">
                   Generation
                 </span>{" "}
                 Payment Method.
               </h1>
               <div className="absolute -top-4 right-0 flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-r from-[#33BBCF] to-[#DEF9FA] p-1 sm:-right-0 sm:-top-4 md:-top-5 md:right-0 lg:-top-0 lg:right-16">
                 <div className="bg-secondary relative flex h-full w-full items-center justify-center rounded-full">
-                  <p className="ml-4 bg-gradient-to-r from-[#33BBCF] to-[#DEF9FA] bg-clip-text text-base font-medium text-transparent sm:text-lg">
+                  <p className="ml-4 bg-gradientText bg-clip-text text-base font-medium text-transparent sm:text-lg">
                     Get Started
                   </p>
                   <span className="absolute right-4 top-5">

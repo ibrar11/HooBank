@@ -3,14 +3,13 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { links } from "../../../../data/navLinksData";
+import { links } from "../../data/navLinksData";
 import { IconItem, Container, Divider, HamburgerIcon } from "../index";
 
 const Header = () => {
   const [dropDown, setDropDown] = useState(false);
 
   const pathname = usePathname();
-
 
   useEffect(() => {
     const handleResize = () => {
@@ -35,11 +34,11 @@ const Header = () => {
             <IconItem
               src="/images/hooBank.svg"
               alt="hooBank"
-              text1="Hoo"
-              text2="Bank"
+              title_part1="Hoo"
+              title_part2="Bank"
               styles="flex items-center text-lg leading-6 font-semibold"
-              textStyles="text-white"
-              textStyles2="text-primary"
+              titleStyles="text-white"
+              titleStyles2="text-primary"
             />
             <HamburgerIcon
               isNavOpened={dropDown}
@@ -57,7 +56,7 @@ const Header = () => {
               <ul className="flex flex-col pl-4 sm:flex-row sm:items-center">
                 {links.map((link) => {
                   return (
-                    <li key={link.key} className="px-2 py-2">
+                    <li key={link.id} className="px-2 py-2">
                       <Link
                         href={link.to}
                         className={`${pathname === link.to ? "text-opacity-100" : ""} p-2 text-base font-normal text-white text-opacity-70`}

@@ -1,21 +1,21 @@
 export const links = [
   {
-    key: 0,
+    id: 0,
     name: "Home",
     to: "/",
   },
   {
-    key: 1,
+    id: 1,
     name: "About Us",
     to: "/about",
   },
   {
-    key: 2,
+    id: 2,
     name: "Features",
     to: "/features",
   },
   {
-    key: 3,
+    id: 3,
     name: "Solution",
     to: "/solution",
   },

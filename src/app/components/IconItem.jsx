@@ -3,17 +3,22 @@ import React from "react";
 const IconItem = ({
   styles = "",
   iconStyles = "",
-  textStyles = "",
+  titleStyles = "",
+  titleStyles2 = "",
   src = "",
   alt = "",
-  text = "",
+  title_part1 = "",
+  title_part2 = "",
 }) => {
   return (
     <div className={`${styles}`}>
       <div className={`${iconStyles}`}>
         <img src={src} alt={alt} />
       </div>
-      <p className={`${textStyles}`}>{text}</p>
+      <p className={`${titleStyles}`}>
+        {title_part1}
+        <span className={titleStyles2}>{title_part2}</span>
+      </p>
     </div>
   );
 };

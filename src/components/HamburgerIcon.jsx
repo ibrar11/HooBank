@@ -3,7 +3,7 @@ import React from "react";
 const HamburgerIcon = ({ isNavOpened, setIsNavOpened }) => {
   return (
     <div
-      className="flex h-5 w-6 cursor-pointer flex-col justify-between sm:hidden"
+      className="ml-auto flex h-5 w-6 cursor-pointer flex-col justify-between sm:hidden"
       onClick={() => setIsNavOpened(!isNavOpened)}
     >
       <div

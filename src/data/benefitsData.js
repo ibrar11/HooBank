@@ -1,7 +1,7 @@
 export const benefitList = [
   {
     id: 0,
-    svgPath: "/images/Star.svg",
+    svgPath: "/svgs/star.svg",
     alt: "Star",
     text: "Rewards",
     paragraph:
@@ -9,15 +9,15 @@ export const benefitList = [
   },
   {
     id: 1,
-    svgPath: "/images/Shield-Done.svg",
-    alt: "Shield",
+    svgPath: "/svgs/shield-done.svg",
+    alt: "shield",
     text: "100% Secured",
     paragraph:
       "We take proactive steps make sure your information and transactions are secure.",
   },
   {
     id: 2,
-    svgPath: "/images/Send.svg",
+    svgPath: "/svgs/send.svg",
     alt: "Send",
     text: "Balance Transfer",
     paragraph:

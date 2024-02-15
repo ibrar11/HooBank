@@ -1,14 +1,14 @@
 export const benefitList = [
   {
-    id: 0,
+    id: 1,
     svgPath: "/svgs/star.svg",
-    alt: "Star",
+    alt: "star",
     text: "Rewards",
     paragraph:
       "The best credit cards offer some tantalizing combinations of promotions and prizes",
   },
   {
-    id: 1,
+    id: 2,
     svgPath: "/svgs/shield-done.svg",
     alt: "shield",
     text: "100% Secured",
@@ -16,9 +16,9 @@ export const benefitList = [
       "We take proactive steps make sure your information and transactions are secure.",
   },
   {
-    id: 2,
+    id: 3,
     svgPath: "/svgs/send.svg",
-    alt: "Send",
+    alt: "send",
     text: "Balance Transfer",
     paragraph:
       "A balance transfer credit card can save you a lot of money in interest charges.",

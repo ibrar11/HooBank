@@ -1,24 +1,24 @@
 import React from "react";
 
 const Feature = ({
-  icon_style = "",
+  iconStyle = "",
   src = "",
   alt = "",
-  text_container_style = "",
-  text_style = "",
-  paragraph_style = "",
+  textContainerStyle = "",
+  textStyle = "",
+  paragraphStyle = "",
   paragraph = "",
   text = "",
 }) => {
   return (
-    <div className="flex items-center gap-x-4 from-[#FFFFFF] to-[#14101D] hover:rounded-lg hover:bg-gradient-to-br">
-      <div className={`flex min-w-10 justify-center ${icon_style}`}>
+    <div className="to-dark-purple flex items-center gap-x-4 from-white hover:rounded-lg hover:bg-gradient-to-br">
+      <div className={`flex min-w-10 justify-center ${iconStyle}`}>
         <img src={src} alt={alt} />
       </div>
-      <div className={`text-white ${text_container_style}`}>
-        <p className={`text-lg font-semibold ${text_style}`}>{text}</p>
+      <div className={` ${textContainerStyle}`}>
+        <p className={`text-lg font-semibold ${textStyle}`}>{text}</p>
         <p
-          className={`text-base font-normal text-opacity-70 ${paragraph_style}`}
+          className={`text-base font-normal text-opacity-70 ${paragraphStyle}`}
         >
           {paragraph}
         </p>

@@ -9,6 +9,5 @@ export { default as Button } from "./Button";
 
 export { default as Header } from "./templates/Header";
 export { default as HeroSection } from "./templates/HeroSection";
-export { default as Endorsement } from "./templates/Endorsement";
-export { default as Benefits } from "./templates/Benefits";
-
+export { default as EndorsementSection } from "./templates/EndorsementSection";
+export { default as BenefitsSection } from "./templates/BenefitsSection";

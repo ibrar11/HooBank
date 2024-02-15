@@ -1,8 +1,11 @@
 import React from "react";
 
-const Button = ({ text = "" }) => {
+const Button = ({ text = "", onClick = undefined }) => {
   return (
-    <button className="rounded-lg bg-gradient-to-br from-[#DEF9FA] to-[#33BBCF] px-5 py-3 text-lg font-medium focus:border-2 focus:border-solid focus:border-white focus:opacity-90">
+    <button
+      onClick={onClick}
+      className="from-light-cyan to-m-turquoise rounded-lg bg-gradient-to-br px-5 py-3 text-lg font-medium hover:bg-gradient-to-tl"
+    >
       {text}
     </button>
   );

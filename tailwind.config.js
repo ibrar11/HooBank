@@ -17,6 +17,10 @@ module.exports = {
         "water-blue": "#214D76",
         "c-black": "#272727",
         "s-c-black": "#393939",
+        "m-turquoise": "#33BBCF",
+        "light-cyan": "#DEF9FA",
+        "dark-blue": "#2e2d6d",
+        "dark-purple": "#14101D",
       },
       maxWidth: {
         container: "1210px",

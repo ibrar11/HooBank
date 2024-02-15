@@ -30,10 +30,7 @@ const Header = () => {
       <Container>
         <div className="flex items-center py-4">
           <Link href={"/"}>
-            <Logo
-              styles="flex items-center text-lg leading-6 font-semibold"
-              titleStyles="text-white"
-            />
+            <Logo styles="flex items-center text-lg leading-6 font-semibold" />
           </Link>
           <HamburgerIcon isNavOpened={dropDown} setIsNavOpened={setDropDown} />
           <div
@@ -45,16 +42,16 @@ const Header = () => {
           >
             <nav className="text-sm sm:flex sm:items-center">
               <ul className="flex flex-col pl-4 sm:flex-row sm:items-center">
-                {links.map((link) => {
+                {links.map((link) => (
                   <li key={link.id} className="mx-5 my-2">
                     <Link
                       href={link.to}
-                      className={`${pathname === link.to ? "text-opacity-100" : "text-opacity-70"} text-base font-medium text-white`}
+                      className={`${pathname === link.to ? "text-opacity-100" : "text-opacity-70"} text-base font-medium `}
                     >
                       {link.name}
                     </Link>
-                  </li>;
-                })}
+                  </li>
+                ))}
               </ul>
             </nav>
           </div>

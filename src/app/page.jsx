@@ -1,10 +1,15 @@
-import { HeroSection, Endorsement } from "../components";
+import {
+  HeroSection,
+  EndorsementSection,
+  BenefitsSection,
+} from "../components";
 
 export default function Home() {
   return (
     <main>
       <HeroSection />
-      <Endorsement />
+      <EndorsementSection />
+      <BenefitsSection />
     </main>
   );
 }

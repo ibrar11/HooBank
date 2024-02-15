@@ -1,26 +1,22 @@
 import React from "react";
 
-const IconItem = ({
+const LogoItem = ({
   styles = "",
   iconStyles = "",
   titleStyles = "",
-  titleStyles2 = "",
-  src = "",
+  svgPath = "",
   alt = "",
-  title_part1 = "",
-  title_part2 = "",
 }) => {
   return (
     <div className={`${styles}`}>
       <div className={`${iconStyles}`}>
-        <img src={src} alt={alt} />
+        <img src={svgPath} alt={alt} />
       </div>
       <p className={`${titleStyles}`}>
-        {title_part1}
-        <span className={titleStyles2}>{title_part2}</span>
+        Hoo<span className="text-primary">Bank</span>
       </p>
     </div>
   );
 };
 
-export default IconItem;
+export default LogoItem;

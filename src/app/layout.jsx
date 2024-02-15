@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Header } from "./components";
+import { Header } from "../components";
 
 export const metadata = {
   title: "HooBank",

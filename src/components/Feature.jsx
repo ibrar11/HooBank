@@ -12,7 +12,7 @@ const Feature = ({
 }) => {
   return (
     <div className="flex items-center gap-x-4 from-[#FFFFFF] to-[#14101D] hover:rounded-lg hover:bg-gradient-to-br">
-      <div className={`min-w-10 ${icon_style}`}>
+      <div className={`flex min-w-10 justify-center ${icon_style}`}>
         <img src={src} alt={alt} />
       </div>
       <div className={`text-white ${text_container_style}`}>

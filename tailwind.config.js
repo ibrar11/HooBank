@@ -35,6 +35,9 @@ module.exports = {
       padding: {
         0.5: "1.5px",
       },
+      borderRadius: {
+        half: "50%",
+      },
     },
   },
   plugins: [],

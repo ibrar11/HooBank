@@ -14,7 +14,7 @@ const HeroSection = () => {
             <div className="blur-3.5xl from-light-purple to-water-blue absolute -top-0 left-0 z-30 ml-28 h-2/3 w-1/2 bg-gradient-to-b opacity-60"></div>
             <div className="blur-4xl absolute -top-0 left-20 z-30 h-2/3 w-1/2 bg-white opacity-60"></div>
           </div>
-          <div className="flex flex-col gap-y-5 sm:w-2/3 sm:justify-center lg:gap-y-8">
+          <div className="relative flex flex-col gap-y-5 sm:w-2/3 sm:justify-center lg:gap-y-8">
             <div className="bg-c-black flex items-center gap-x-2 rounded-lg md:w-max md:gap-x-1">
               <img
                 src="/svgs/discount.svg"
@@ -53,6 +53,7 @@ const HeroSection = () => {
               cards most likely to fit your needs. We examine annual percentage
               rates, annual fees.
             </p>
+            <div className="rounded-half  blur-4xl absolute -left-16 top-9 z-30 h-80 w-48 bg-gradient-to-t from-white to-[#2e2d6d] to-70% opacity-70"></div>
           </div>
         </div>
       </Container>

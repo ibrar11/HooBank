@@ -15,19 +15,28 @@ module.exports = {
         secondary: "#06080c",
         "light-purple": "#BCA5FF",
         "water-blue": "#214D76",
+        "c-black": "#272727",
+        "s-c-black": "#393939",
       },
       maxWidth: {
         container: "1210px",
       },
       blur: {
-        "3.5xl": "76px",
-        "4xl": "100px",
+        "3.5xl": "90px",
+        "4xl": "150px",
       },
       width: {
         "overflow-width": "calc(100% + 20px)",
       },
       backgroundImage: {
-        gradientText: "linear-gradient(to right,#33BBCF,#DEF9FA)"
+        gradientText: "linear-gradient(to right,#33BBCF,#DEF9FA)",
+        bgGradient: "linear-gradient(to bottom right, #214D76, #06080c)",
+      },
+      padding: {
+        0.5: "1.5px",
+      },
+      borderRadius: {
+        half: "50%",
       },
     },
   },

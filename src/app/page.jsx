@@ -2,6 +2,7 @@ import {
   HeroSection,
   EndorsementSection,
   BenefitsSection,
+  TranscationSection,
 } from "../components";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <EndorsementSection />
       <BenefitsSection />
+      <TranscationSection />
     </main>
   );
 }

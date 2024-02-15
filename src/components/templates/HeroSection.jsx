@@ -15,13 +15,13 @@ const HeroSection = () => {
             <div className="blur-4xl absolute -top-0 left-20 z-30 h-2/3 w-1/2 bg-white opacity-60"></div>
           </div>
           <div className="relative flex flex-col gap-y-5 sm:w-2/3 sm:justify-center lg:gap-y-8">
-            <div className="bg-c-black flex items-center gap-x-2 rounded-lg md:w-max md:gap-x-1">
+            <div className="bg-c-black flex items-center gap-x-2 rounded-lg px-3 md:w-max md:gap-x-1">
               <img
                 src="/svgs/discount.svg"
                 alt="discount"
                 className="min-w-8"
               />
-              <p className="pr-5 text-base font-normal text-white text-opacity-60 sm:text-lg">
+              <p className="text-base font-normal text-white text-opacity-60 sm:text-lg">
                 <span className="text-white text-opacity-100">20% </span>
                 DISCOUNT FOR{" "}
                 <span className="text-white text-opacity-100">1 MONTH </span>
@@ -48,7 +48,7 @@ const HeroSection = () => {
               </div>
               <div></div>
             </div>
-            <p className="text-opacity-70sm:text-lg text-base font-normal leading-normal text-white md:pr-12 lg:pr-44 xl:pr-60">
+            <p className="text-base font-normal leading-normal text-white text-opacity-70 sm:text-lg md:pr-12 lg:pr-44 xl:pr-60">
               Our team of experts uses a methodology to identify the credit
               cards most likely to fit your needs. We examine annual percentage
               rates, annual fees.

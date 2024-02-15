@@ -1,16 +1,10 @@
 import React from "react";
 
-const LogoItem = ({
-  styles = "",
-  iconStyles = "",
-  titleStyles = "",
-  svgPath = "",
-  alt = "",
-}) => {
+const Logo = ({ styles = "", iconStyles = "", titleStyles = "" }) => {
   return (
     <div className={`${styles}`}>
       <div className={`${iconStyles}`}>
-        <img src={svgPath} alt={alt} />
+        <img src="/svgs/hoo-bank.svg" alt="hoo-bank" />
       </div>
       <p className={`${titleStyles}`}>
         Hoo<span className="text-primary">Bank</span>
@@ -19,4 +13,4 @@ const LogoItem = ({
   );
 };
 
-export default LogoItem;
+export default Logo;

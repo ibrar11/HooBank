@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { links } from "../../data/navLinksData";
-import { LogoItem, Container, HamburgerIcon } from "../index";
+import { Logo, Container, HamburgerIcon } from "../index";
 
 const Header = () => {
   const [dropDown, setDropDown] = useState(false);
@@ -26,13 +26,11 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="bg-secondary sticky left-0 right-0 top-0 z-20">
+    <header className="bg-secondary sticky top-0 z-20">
       <Container>
         <div className="flex items-center py-4">
           <Link href={"/"}>
-            <LogoItem
-              svgPath="/svgs/hoo-bank.svg"
-              alt="hoo-bank"
+            <Logo
               styles="flex items-center text-lg leading-6 font-semibold"
               titleStyles="text-white"
             />
@@ -48,16 +46,14 @@ const Header = () => {
             <nav className="text-sm sm:flex sm:items-center">
               <ul className="flex flex-col pl-4 sm:flex-row sm:items-center">
                 {links.map((link) => {
-                  return (
-                    <li key={link.id} className="mx-5 my-2">
-                      <Link
-                        href={link.to}
-                        className={`${pathname === link.to ? "text-opacity-100" : "text-opacity-70"} text-base font-medium text-white`}
-                      >
-                        {link.name}
-                      </Link>
-                    </li>
-                  );
+                  <li key={link.id} className="mx-5 my-2">
+                    <Link
+                      href={link.to}
+                      className={`${pathname === link.to ? "text-opacity-100" : "text-opacity-70"} text-base font-medium text-white`}
+                    >
+                      {link.name}
+                    </Link>
+                  </li>;
                 })}
               </ul>
             </nav>

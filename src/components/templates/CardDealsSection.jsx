@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Divider, Button } from "../index";
 
-const DealsSection = () => {
+const CardDealsSection = () => {
   return (
     <section>
       <Divider py="py-5 sm:py-10" />
@@ -27,4 +27,4 @@ const DealsSection = () => {
   );
 };
 
-export default DealsSection;
+export default CardDealsSection;

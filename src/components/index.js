@@ -11,4 +11,4 @@ export { default as Header } from "./templates/Header";
 export { default as HeroSection } from "./templates/HeroSection";
 export { default as EndorsementSection } from "./templates/EndorsementSection";
 export { default as BenefitsSection } from "./templates/BenefitsSection";
-export { default as DealsSection } from "./templates/DealsSection";
+export { default as CardDealsSection } from "./templates/CardDealsSection";

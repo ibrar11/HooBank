@@ -5,6 +5,7 @@ import {
   TranscationSection,
   CardDealsSection,
   FeedBackSection,
+  PartnerLogosSection,
 } from "../components";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <TranscationSection />
       <CardDealsSection />
       <FeedBackSection />
+      <PartnerLogosSection />
     </main>
   );
 }

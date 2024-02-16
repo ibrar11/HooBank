@@ -3,6 +3,7 @@ import {
   EndorsementSection,
   BenefitsSection,
   TranscationSection,
+  PartnerLogosSection,
 } from "../components";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <EndorsementSection />
       <BenefitsSection />
       <TranscationSection />
+      <PartnerLogosSection />
     </main>
   );
 }

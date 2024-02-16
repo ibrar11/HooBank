@@ -6,6 +6,7 @@ import {
   CardDealsSection,
   FeedBackSection,
   PartnerLogosSection,
+  TryOutSection,
 } from "../components";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <CardDealsSection />
       <FeedBackSection />
       <PartnerLogosSection />
+      <TryOutSection />
     </main>
   );
 }

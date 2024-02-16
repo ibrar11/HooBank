@@ -11,7 +11,7 @@ const Feature = ({
   text = "",
 }) => {
   return (
-    <div className="to-dark-purple from-g-purple flex items-center gap-x-4 p-5 hover:rounded-lg hover:bg-gradient-to-br">
+    <div className="to-dark-purple from-g-purple flex items-center gap-x-4 p-5 rounded-lg hover:bg-gradient-to-br">
       <div
         className={`bg-gun-metal flex min-w-10 items-center justify-center rounded-full p-3 ${iconStyle}`}
       >

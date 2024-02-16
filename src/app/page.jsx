@@ -3,6 +3,9 @@ import {
   EndorsementSection,
   BenefitsSection,
   TranscationSection,
+  CardDealsSection,
+  FeedBackSection,
+  PartnerLogosSection,
   TryOutSection,
 } from "../components";
 
@@ -13,6 +16,9 @@ export default function Home() {
       <EndorsementSection />
       <BenefitsSection />
       <TranscationSection />
+      <CardDealsSection />
+      <FeedBackSection />
+      <PartnerLogosSection />
       <TryOutSection />
     </main>
   );

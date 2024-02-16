@@ -35,7 +35,7 @@ const FeedBackSection = () => {
             <h2 className="text-3xl font-semibold leading-relaxed sm:w-1/2 md:text-4xl  md:leading-relaxed  lg:pr-40 xl:text-5xl xl:leading-relaxed">
               What people are saying about us
             </h2>
-            <p className="text-base font-normal leading-normal sm:w-1/2 sm:text-lg  lg:pr-32">
+            <p className="text-base font-normal leading-normal text-white text-opacity-70 sm:w-1/2 sm:text-lg  lg:pr-32">
               Everything you need to accept card payments and grow your business
               anywhere on the planet.
             </p>

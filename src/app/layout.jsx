@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Header } from "../components";
+import { Header, Footer } from "../components";
 
 export const metadata = {
   title: "HooBank",
@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
       <body className="bg-secondary">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

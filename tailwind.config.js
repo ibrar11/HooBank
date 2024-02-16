@@ -25,6 +25,7 @@ module.exports = {
         "g-purple": "#34323C",
         "dark-cerulean-blue": "#1A2980",
         turquoise: "#26D0CE",
+        "charcoal-gray": "#3F3E45",
       },
       maxWidth: {
         container: "1210px",

@@ -12,3 +12,4 @@ export { default as HeroSection } from "./templates/HeroSection";
 export { default as EndorsementSection } from "./templates/EndorsementSection";
 export { default as BenefitsSection } from "./templates/BenefitsSection";
 export { default as TranscationSection } from "./templates/TranscationSection";
+export { default as TryOutSection } from "./templates/TryOutSection";

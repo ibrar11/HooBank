@@ -4,6 +4,7 @@ import {
   BenefitsSection,
   TranscationSection,
   CardDealsSection,
+  FeedBackSection,
 } from "../components";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <BenefitsSection />
       <TranscationSection />
       <CardDealsSection />
+      <FeedBackSection />
     </main>
   );
 }

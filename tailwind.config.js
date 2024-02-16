@@ -23,6 +23,8 @@ module.exports = {
         "dark-purple": "#14101D",
         "gun-metal": "#2B343A",
         "g-purple": "#34323C",
+        "dark-cerulean-blue": "#1A2980",
+        turquoise: "#26D0CE",
         "charcoal-gray": "#3F3E45",
       },
       maxWidth: {
@@ -44,6 +46,7 @@ module.exports = {
       },
       borderRadius: {
         half: "50%",
+        complete: "100%",
       },
     },
   },

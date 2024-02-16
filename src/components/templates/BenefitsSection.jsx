@@ -20,7 +20,7 @@ const BenefitsSection = () => {
               />
             ))}
           </div>
-          <div className="flex flex-col gap-y-8 sm:w-1/2 sm:items-start xl:w-[58%]">
+          <div className="flex flex-col gap-y-10 sm:w-1/2 sm:items-start xl:w-[58%]">
             <h2 className="text-3xl font-semibold leading-relaxed  md:text-4xl md:leading-relaxed xl:text-5xl xl:leading-relaxed">
               You do the business, we’ll handle the money.
             </h2>

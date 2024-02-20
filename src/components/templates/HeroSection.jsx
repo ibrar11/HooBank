@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Container, Divider } from "../index";
+import { Container } from "../index";
 
 const HeroSection = () => {
   return (
@@ -61,7 +61,6 @@ const HeroSection = () => {
           </div>
         </div>
       </Container>
-      <Divider py="py-5 sm:py-10" />
     </section>
   );
 };

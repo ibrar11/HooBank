@@ -26,17 +26,17 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="bg-secondary sticky top-0 z-20">
+    <header className="sticky top-0 z-20 bg-secondary">
       <Container>
         <div className="flex items-center py-4">
           <Link href={"/"}>
-            <Logo styles="flex items-center text-lg leading-6 font-semibold" />
+            <Logo styles="text-lg leading-6 font-semibold" />
           </Link>
           <HamburgerIcon isNavOpened={dropDown} setIsNavOpened={setDropDown} />
           <div
             className={
               dropDown
-                ? "bg-bgGradient blur-10 absolute left-0 right-0 top-14 z-10 flex w-full flex-col gap-y-3 rounded-lg"
+                ? "blur-10 absolute left-0 right-0 top-14 z-10 flex w-full flex-col gap-y-3 rounded-lg bg-bgGradient"
                 : "h-0 w-0 overflow-hidden sm:ml-auto sm:flex sm:h-auto sm:w-max  xl:gap-x-16"
             }
           >

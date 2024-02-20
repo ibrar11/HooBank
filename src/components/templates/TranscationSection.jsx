@@ -11,7 +11,7 @@ const TranscationSection = () => {
             <h2 className="text-3xl font-semibold leading-relaxed  md:text-4xl md:leading-relaxed xl:text-5xl xl:leading-relaxed">
               Easily control your billing & invoicing.
             </h2>
-            <p className="max-w-[403px] text-base font-normal leading-normal  sm:text-lg">
+            <p className="max-w-[403px] text-base font-normal leading-normal text-white text-opacity-70  sm:text-lg">
               Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
               aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
               placerat.

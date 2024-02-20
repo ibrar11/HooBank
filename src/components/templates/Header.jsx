@@ -46,7 +46,7 @@ const Header = () => {
                   <li key={link.id} className="mx-5 my-2">
                     <Link
                       href={link.to}
-                      className={`${pathname === link.to ? "text-opacity-100" : "text-opacity-70"} text-base font-medium `}
+                      className={`${pathname === link.to ? "text-opacity-100" : "text-opacity-70"} text-base font-medium text-white `}
                     >
                       {link.name}
                     </Link>

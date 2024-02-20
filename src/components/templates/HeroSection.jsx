@@ -21,9 +21,10 @@ const HeroSection = () => {
                 alt="discount"
                 className="min-w-8"
               />
-              <p className="text-base font-normal  text-opacity-60 sm:text-lg">
-                <span className=" text-opacity-100">20% </span>
-                DISCOUNT FOR <span className=" text-opacity-100">1 MONTH </span>
+              <p className="text-base font-normal  text-white text-opacity-60  sm:text-lg">
+                <span className="text-white text-opacity-100">20%</span>
+                DISCOUNT FOR{" "}
+                <span className="text-white text-opacity-100">1 MONTH </span>
                 ACCOUNT
               </p>
             </div>
@@ -47,7 +48,7 @@ const HeroSection = () => {
               </div>
               <div></div>
             </div>
-            <p className="text-base font-normal leading-normal  text-opacity-70 sm:text-lg md:pr-12 lg:pr-44 xl:pr-60">
+            <p className="text-base font-normal leading-normal  text-white text-opacity-70 sm:text-lg md:pr-12 lg:pr-44 xl:pr-60">
               Our team of experts uses a methodology to identify the credit
               cards most likely to fit your needs. We examine annual percentage
               rates, annual fees.

@@ -13,7 +13,7 @@ const BenefitsSection = () => {
             {benefitList.map((benefit) => (
               <Feature
                 key={benefit.id}
-                src={benefit.svgPath}
+                iconPath={benefit.svgPath}
                 alt={benefit.alt}
                 text={benefit.text}
                 paragraph={benefit.paragraph}
@@ -24,7 +24,7 @@ const BenefitsSection = () => {
             <h2 className="text-3xl font-semibold leading-relaxed  md:text-4xl md:leading-relaxed xl:text-5xl xl:leading-relaxed">
               You do the business, we’ll handle the money.
             </h2>
-            <p className="text-base font-normal leading-relaxed ">
+            <p className="text-base font-normal leading-relaxed text-white text-opacity-70 ">
               With the right credit card, you can improve your financial life by
               building credit, earning rewards and saving money. But with
               hundreds of credit cards on the market.

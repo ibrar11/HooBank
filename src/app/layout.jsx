@@ -6,9 +6,14 @@ export const metadata = {
   description: "HooBank with next js",
 };
 
+export function Icon() {}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/svgs/hoo-bank.svg" />
+      </head>
       <body className="bg-secondary">
         <Header />
         {children}

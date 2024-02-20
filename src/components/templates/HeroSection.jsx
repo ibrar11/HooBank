@@ -1,4 +1,5 @@
-import { Container } from "../index";
+import Link from "next/link";
+import { Container, Divider } from "../index";
 
 const HeroSection = () => {
   return (
@@ -36,16 +37,19 @@ const HeroSection = () => {
                 </span>{" "}
                 Payment Method.
               </h1>
-              <div className="from-m-turquoise to-light-cyan absolute -right-4 -top-0 flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-r p-0.5 sm:-right-0 sm:-top-4 md:right-20 md:top-0 lg:-top-0 lg:right-48">
-                <div className="bg-secondary relative flex h-full w-full items-center justify-center rounded-full">
-                  <p className="bg-gradientText ml-4 bg-clip-text text-base font-medium text-transparent sm:text-lg">
+              <Link
+                href={"/"}
+                className="from-m-turquoise to-light-cyan absolute -right-4 -top-0 flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-r p-0.5 sm:-right-0 sm:-top-4 md:right-20 md:top-0 lg:-top-0 lg:right-48"
+              >
+                <div className="bg-secondary relative flex h-full w-full items-center justify-center rounded-full p-1">
+                  <p className="bg-gradientText ml-2 bg-clip-text text-base font-medium text-transparent sm:text-lg">
                     Get Started
                   </p>
                   <span className="absolute right-4 top-5">
                     <img src="/svgs/arrow-up.svg" alt="Arrow-Up" />
                   </span>
                 </div>
-              </div>
+              </Link>
               <div></div>
             </div>
             <p className="text-base font-normal leading-normal  text-white text-opacity-70 sm:text-lg md:pr-12 lg:pr-44 xl:pr-60">
@@ -57,6 +61,7 @@ const HeroSection = () => {
           </div>
         </div>
       </Container>
+      <Divider py="py-5 sm:py-10" />
     </section>
   );
 };

@@ -26,7 +26,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="bg-secondary sticky top-0 z-20">
+    <header className="sticky top-0 z-20 bg-secondary">
       <Container>
         <div className="flex items-center py-4">
           <Link href={"/"}>
@@ -36,17 +36,17 @@ const Header = () => {
           <div
             className={
               dropDown
-                ? "bg-bgGradient blur-10 absolute left-0 right-0 top-14 z-10 flex w-full flex-col gap-y-3 rounded-lg"
-                : "h-0 w-0 overflow-hidden sm:ml-auto sm:flex sm:h-auto sm:w-max  xl:gap-x-16"
+                ? "blur-10 absolute left-0 right-0 top-14 z-10 flex w-full flex-col gap-y-3 rounded-lg bg-bgGradient transition-all duration-300 ease-in-out"
+                : "h-0 w-0 overflow-hidden sm:ml-auto sm:flex sm:h-auto sm:w-max xl:gap-x-16"
             }
           >
             <nav className="text-sm sm:flex sm:items-center">
-              <ul className="flex flex-col pl-4 sm:flex-row sm:items-center">
+              <ul className="flex flex-col gap-y-5 px-5 py-10 sm:flex-row sm:items-center">
                 {links.map((link) => (
-                  <li key={link.id} className="mx-5 my-2">
+                  <li key={link.id}>
                     <Link
                       href={link.to}
-                      className={`${pathname === link.to ? "text-opacity-100" : "text-opacity-70"} text-base font-medium text-white `}
+                      className={`${pathname === link.to ? "text-opacity-100" : "text-opacity-70"} rounded-lg from-g-purple to-dark-purple p-2 text-base font-medium text-white hover:bg-gradient-to-br`}
                     >
                       {link.name}
                     </Link>

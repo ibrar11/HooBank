@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Container } from "../index";
+import { Container, DiscountBar, RoundedButton } from "../index";
 
 const HeroSection = () => {
   return (
@@ -14,21 +14,11 @@ const HeroSection = () => {
             />
             <div className="absolute -top-0 left-0 z-30 ml-28 h-2/3 w-1/2 bg-gradient-to-b from-light-purple to-water-blue opacity-60 blur-3.5xl"></div>
             <div className="absolute -top-0 left-20 z-30 h-2/3 w-1/2 bg-white opacity-60 blur-4xl"></div>
+            <div className="absolute -top-0 left-0 z-30 ml-28 h-2/3 w-1/2 bg-gradient-to-b from-light-purple to-water-blue opacity-60 blur-3.5xl"></div>
+            <div className="absolute -top-0 left-20 z-30 h-2/3 w-1/2 bg-white opacity-60 blur-4xl"></div>
           </div>
           <div className="relative flex flex-col gap-y-5 sm:w-2/3 sm:justify-center lg:gap-y-8">
-            <div className="flex items-center gap-x-2 rounded-lg bg-c-black px-3 md:w-max md:gap-x-1">
-              <img
-                src="/svgs/discount.svg"
-                alt="discount"
-                className="min-w-8"
-              />
-              <p className="text-base font-normal  text-white text-opacity-60  sm:text-lg">
-                <span className="text-white text-opacity-100">20%</span>
-                DISCOUNT FOR{" "}
-                <span className="text-white text-opacity-100">1 MONTH </span>
-                ACCOUNT
-              </p>
-            </div>
+            <DiscountBar />
             <div className="relative flex flex-col gap-y-5">
               <h1 className="pr-28 text-3xl  font-semibold leading-snug  sm:pr-20 sm:text-4xl sm:leading-snug md:pr-28 md:text-5xl md:leading-snug lg:text-6xl lg:leading-snug">
                 The Next{" "}
@@ -37,22 +27,10 @@ const HeroSection = () => {
                 </span>{" "}
                 Payment Method.
               </h1>
-              <Link
-                href={"/"}
-                className="absolute -right-4 -top-0 flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-tl from-m-turquoise to-light-cyan p-0.5 sm:-right-0 sm:-top-4 md:right-20 md:top-0 lg:-top-0 lg:right-48"
-              >
-                <div className="relative flex h-full w-full items-center justify-center rounded-full bg-secondary p-1">
-                  <p className="bg-gradient-text ml-2 bg-clip-text text-base font-medium text-transparent sm:text-lg">
-                    Get Started
-                  </p>
-                  <span className="absolute right-4 top-5">
-                    <img src="/svgs/arrow-up.svg" alt="Arrow-Up" />
-                  </span>
-                </div>
-              </Link>
+              <RoundedButton />
               <div></div>
             </div>
-            <p className="text-base font-normal leading-normal  text-white text-opacity-70 sm:text-lg md:pr-12 lg:pr-44 xl:pr-60">
+            <p className="text-base font-normal leading-normal  text-white text-opacity-70 sm:text-lg md:pr-12 lg:max-w-[465px] lg:pr-0">
               Our team of experts uses a methodology to identify the credit
               cards most likely to fit your needs. We examine annual percentage
               rates, annual fees.

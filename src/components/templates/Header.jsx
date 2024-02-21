@@ -41,12 +41,12 @@ const Header = () => {
             }
           >
             <nav className="text-sm sm:flex sm:items-center">
-              <ul className="flex flex-col pl-4 sm:flex-row sm:items-center">
+              <ul className="flex flex-col gap-y-5 px-5 py-10 sm:flex-row sm:items-center">
                 {links.map((link) => (
-                  <li key={link.id} className="mx-5 my-2">
+                  <li key={link.id}>
                     <Link
                       href={link.to}
-                      className={`${pathname === link.to ? "text-opacity-100" : "text-opacity-70"} text-base font-medium text-white `}
+                      className={`${pathname === link.to ? "text-opacity-100" : "text-opacity-70"} rounded-lg from-g-purple to-dark-purple p-2 text-base font-medium text-white hover:bg-gradient-to-br`}
                     >
                       {link.name}
                     </Link>

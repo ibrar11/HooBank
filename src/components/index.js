@@ -4,6 +4,7 @@ export { default as HamburgerIcon } from "./HamburgerIcon";
 export { default as Logo } from "./Logo";
 export { default as Feature } from "./Feature";
 export { default as Button } from "./Button";
+export { default as EndorsementItem } from "./EndorsementItem";
 export { default as ListItem } from "./ListItem";
 export { default as Slider } from "./Slider";
 export { default as FooterDetails } from "./FooterDetails";

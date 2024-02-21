@@ -35,11 +35,11 @@ module.exports = {
         "4xl": "150px",
       },
       width: {
-        "overflow-width": "calc(100% + 20px)",
+        "calc-5": "calc(100% + 20px)",
       },
       backgroundImage: {
-        gradientText: "linear-gradient(to right,#33BBCF,#DEF9FA)",
-        bgGradient: "linear-gradient(to bottom right, #214D76, #06080c)",
+        "gradient-text": "linear-gradient(to right,#33BBCF,#DEF9FA)",
+        "gradient-b": "linear-gradient(to top left, #052440 10%, #06080c)",
       },
       padding: {
         0.5: "1.5px",

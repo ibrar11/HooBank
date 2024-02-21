@@ -36,8 +36,8 @@ const Header = () => {
           <div
             className={
               dropDown
-                ? "blur-10 absolute left-0 right-0 top-14 z-10 flex w-full flex-col gap-y-3 rounded-lg bg-bgGradient transition-all duration-300 ease-in-out"
-                : "h-0 w-0 overflow-hidden sm:ml-auto sm:flex sm:h-auto sm:w-max xl:gap-x-16"
+                ? "bg-gradient-b blur-10 absolute left-0 right-0 top-14 z-10 flex w-full flex-col gap-y-3 rounded-lg"
+                : "h-0 w-0 overflow-hidden sm:ml-auto sm:flex sm:h-auto sm:w-max  xl:gap-x-16"
             }
           >
             <nav className="text-sm sm:flex sm:items-center">

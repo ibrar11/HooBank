@@ -30,7 +30,7 @@ const Header = () => {
       <Container>
         <div className="flex items-center py-4">
           <Link href={"/"}>
-            <Logo styles="flex items-center text-lg leading-6 font-semibold" />
+            <Logo styles="text-lg leading-6 font-semibold" />
           </Link>
           <HamburgerIcon isNavOpened={dropDown} setIsNavOpened={setDropDown} />
           <div

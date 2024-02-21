@@ -8,8 +8,9 @@ const EndorsementSection = () => {
       <Divider py="py-5 sm:py-10" />
       <Container>
         <div className="flex flex-wrap gap-x-10 gap-y-5 sm:justify-center lg:justify-evenly xl:justify-between">
-          {Endorsements.map((item) => (
+          {Endorsements.map((item, index) => (
             <EndorsementItem
+              key={index}
               slashStyle={item.display}
               count={item.count}
               text={item.text}
